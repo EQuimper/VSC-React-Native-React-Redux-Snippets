@@ -119,7 +119,7 @@
 		"prefix": "crr",
 		"body": "import { connect } from 'react-redux';"
 	},
-	"Component Did Mount": {
+	"ComponentDidMount": {
 		"prefix": "cdm",
 		"body": [
 			"componentDidMount() {",
