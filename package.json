@@ -6,6 +6,10 @@
     "galleryBanner": {
         "theme": "light"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/EQuimper/VSC-React-Native-React-Redux-Snippets"
+    },
     "icon": "images/react-logo.png",
     "publisher": "EQuimper",
     "engines": {
@@ -37,9 +41,5 @@
                 "path": "./snippets/snippets.json"
             }
         ]
-    },
-    "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "node ./node_modules/vscode/bin/test"
     }
 }
