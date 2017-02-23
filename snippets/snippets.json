@@ -1,0 +1,142 @@
+{
+	"Import react": {
+			"prefix": "imr",
+			"body": [
+					"import React from 'react';"
+			],
+			"description": "Import react"
+	},
+	"Import react component" : {
+		"prefix": "imrc",
+		"body": [
+			"import React, { Component } from 'react';"
+		],
+		"description": "Import react component"
+	},
+	"Import React-Native Element": {
+		"prefix": "imrn",
+		"body": "import { $1 } from 'react-native';",
+		"description": "Import React-Native Element"
+	},
+	"Redux constant": {
+		"prefix": "rct",
+		"body": "export const $1 = '$1';"
+	},
+    "Print to console": {
+		"prefix": "cl",
+		"body": [
+			"console.log($1)"
+		],
+		"description": "Log output to console"
+	},
+	"Export default": {
+		"prefix": "ed",
+		"body": [
+			"export default $1;"
+		],
+		"description": "Export default"
+	},
+	"EslintDisableLine": {
+		"prefix": "edl",
+		"body": "// eslint-disable-line",
+		"description": "Eslint Disable Line"
+	},
+	"Comment Block": {
+		"prefix": "cm",
+		"body": [
+			"/**",
+			" * ${1}",
+			" */"
+		]
+	},
+	"Stateless Component": {
+		"prefix": "sl",
+		"body": [
+			"const $1 = () => (",
+				"\t$2",
+			");",
+			"",
+			"export default $1;"
+		]
+	},
+	"Redux Reducer": {
+		"prefix": "rrd",
+		"body": [
+			"export default (state = $1, action) => {",
+				"\tswitch (action.type) {",
+					"\t\tcase $2:",
+						"\t\t\t$3",
+					"\t\tdefault:",
+						"\t\t\treturn state;",
+				"\t}",
+			"};"
+		]
+	},
+	"Comment Big Block": {
+		"prefix": "cbb",
+		"body": [
+			"// ===============================",
+  		"//          $1 ~ $2",
+  		"// ==============================="
+		]
+	},
+	"ComponentWillMount": {
+		"prefix": "cwm",
+		"body": [
+			"componentWillMount() {",
+			"	$1",
+			"}"
+		]
+	},
+	"ComponentWillUpdate": {
+		"prefix": "cwu",
+		"body": [
+			"componentWillUpdate() {",
+			"	$1",
+			"}"
+		]
+	},
+	"Comment big line": {
+		"prefix": "cbl",
+		"body": "// ============================================================"
+	},
+	"Component Class": {
+		"prefix": "ccs",
+		"body": [
+			"class $1 extends Component {",
+			"\tstate = { $2 }",
+			"\trender() {",
+			"\t\treturn (",
+			"\t\t\t$3",
+			"\t\t);",
+			"\t}",
+			"}",
+			"",
+			"export default $1;"
+		]
+	},
+	"Connect Redux": {
+		"prefix": "crr",
+		"body": "import { connect } from 'react-redux';"
+	},
+	"Component Did Mount": {
+		"prefix": "cdm",
+		"body": [
+			"componentDidMount() {",
+			"\t$1",
+  		"}"
+		]
+	},
+	"EStyleSheet Style": {
+		"prefix": "ess",
+		"body": [
+			"import EStyleSheet from 'react-native-extended-stylesheet';",
+			"",
+			"const styles = EStyleSheet.create({",
+			"\t$1",
+			"});",
+			"",
+			"export default styles;"
+		]
+	}
+}

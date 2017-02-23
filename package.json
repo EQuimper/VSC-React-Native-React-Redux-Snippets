@@ -1,0 +1,45 @@
+{
+    "name": "react-native-react-redux",
+    "displayName": "React-Native/React/Redux snippets for es6/es7",
+    "description": "Code snippets for React-Native/React/Redux es6/es7",
+    "version": "0.0.1",
+    "galleryBanner": {
+        "theme": "light"
+    },
+    "icon": "images/react-logo.png",
+    "publisher": "EQuimper",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "jsx",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    }
+}
