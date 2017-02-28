@@ -138,5 +138,15 @@
 			"",
 			"export default styles;"
 		]
+	},
+	"Stateless Component Function": {
+		"prefix": "slc",
+		"body": [
+			"function $1($2) {",
+			"\t$3",
+			"}",
+			"",
+			"export default $1;"
+		]
 	}
 }

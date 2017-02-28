@@ -8,6 +8,7 @@
 | rct | Redux constant |
 | ccr | Connect Redux |
 | sl | Stateless Component |
+| slc | Stateless Component Function |
 | ccs | Component Class |
 | rrd | Redux Reducer |
 | cwm | ComponentWillMount |
@@ -65,6 +66,18 @@ import { connect } from 'react-redux';
 const $1 = () => (
   $2
 );
+
+export default $1;
+```
+
+---
+
+## slc [Stateless Component Function]
+
+```js
+function $1($2) {
+  $3
+}
 
 export default $1;
 ```
