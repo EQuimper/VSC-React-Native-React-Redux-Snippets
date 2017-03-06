@@ -6,6 +6,7 @@
     ],
     "description": "Import react"
   },
+
   "Import react component": {
     "prefix": "imrc",
     "body": [
@@ -13,15 +14,18 @@
     ],
     "description": "Import react component"
   },
+
   "Import React-Native Element": {
     "prefix": "imrn",
     "body": "import { $1 } from 'react-native';",
     "description": "Import React-Native Element"
   },
+
   "Redux constant": {
     "prefix": "rct",
     "body": "export const $1 = '$1';"
   },
+
   "Print to console": {
     "prefix": "cl",
     "body": [
@@ -29,6 +33,7 @@
     ],
     "description": "Log output to console"
   },
+
   "Export default": {
     "prefix": "ed",
     "body": [
@@ -36,11 +41,13 @@
     ],
     "description": "Export default"
   },
+
   "EslintDisableLine": {
     "prefix": "edl",
     "body": "// eslint-disable-line",
     "description": "Eslint Disable Line"
   },
+
   "Comment Block": {
     "prefix": "cm",
     "body": [
@@ -49,6 +56,7 @@
       " */"
     ]
   },
+
   "Stateless Component": {
     "prefix": "sl",
     "body": [
@@ -59,6 +67,7 @@
       "export default $1;"
     ]
   },
+
   "Redux Reducer": {
     "prefix": "rrd",
     "body": [
@@ -72,6 +81,7 @@
       "};"
     ]
   },
+
   "Comment Big Block": {
     "prefix": "cbb",
     "body": [
@@ -80,6 +90,7 @@
       "// ==============================="
     ]
   },
+
   "ComponentWillMount": {
     "prefix": "cwm",
     "body": [
@@ -88,6 +99,7 @@
       "}"
     ]
   },
+
   "ComponentWillUpdate": {
     "prefix": "cwu",
     "body": [
@@ -96,10 +108,21 @@
       "}"
     ]
   },
+
+  "ComponentDidUpdate": {
+    "prefix": "cdu",
+    "body": [
+      "componentDidUpdate(prevProps, prevState) {",
+      "	$1",
+      "}"
+    ]
+  },
+
   "Comment big line": {
     "prefix": "cbl",
     "body": "// ============================================================"
   },
+
   "Component Class": {
     "prefix": "ccs",
     "body": [
@@ -115,10 +138,12 @@
       "export default $1;"
     ]
   },
+
   "Connect Redux": {
     "prefix": "crr",
     "body": "import { connect } from 'react-redux';"
   },
+
   "ComponentDidMount": {
     "prefix": "cdm",
     "body": [
@@ -127,6 +152,7 @@
       "}"
     ]
   },
+
   "EStyleSheet Style": {
     "prefix": "ess",
     "body": [
@@ -139,6 +165,7 @@
       "export default styles;"
     ]
   },
+
   "Stateless Component Function": {
     "prefix": "slc",
     "body": [
@@ -149,6 +176,7 @@
       "export default $1;"
     ]
   },
+
   "Styled Component": {
     "prefix": "styc",
     "body": [
@@ -159,6 +187,7 @@
       "export default $1;"
     ]
   },
+
   "ComponentWillUnmount": {
     "prefix": "cwum",
     "body": [

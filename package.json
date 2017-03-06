@@ -2,10 +2,7 @@
   "name": "react-native-react-redux",
   "displayName": "React-Native/React/Redux snippets for es6/es7",
   "description": "Code snippets for React-Native/React/Redux es6/es7",
-  "version": "0.0.4",
-  "scripts": {
-    "publish": "vsce publish"
-  },
+  "version": "0.0.5",
   "galleryBanner": {
     "theme": "light"
   },

@@ -6,3 +6,7 @@
 
 - ComponentWillUnmount
 - Styled Component
+
+## [0.0.5 - ADDED]
+
+- ComponentDidUpdate

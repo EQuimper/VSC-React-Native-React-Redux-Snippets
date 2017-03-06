@@ -1,3 +1,7 @@
+[![Version](http://vsmarketplacebadge.apphb.com/version-short/EQuimper.react-native-react-redux.svg)](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
+[![Install](http://vsmarketplacebadge.apphb.com/installs-short/EQuimper.react-native-react-redux.svg)](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
+[![Ratings](http://vsmarketplacebadge.apphb.com/rating-short/EQuimper.react-native-react-redux.svg)](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
+
 ## Snippets List
 
 | Snippets | Content |
@@ -13,6 +17,7 @@
 | rrd | Redux Reducer |
 | cwm | ComponentWillMount |
 | cdm | ComponentDidMount |
+| cdu | ComponentDidUpdate |
 | cwu | ComponentWillUpdate |
 | cwum | ComponentWillUnmount |
 | ess | EStyleSheet Style |
@@ -124,10 +129,21 @@ componentWillMount() {
 }
 ```
 
+
 ## cwu [ComponentWillUpdate]
 
 ```js
 componentWillMount() {
+  $1
+}
+```
+
+---
+
+## cdu [ComponentDidUpdate]
+
+```js
+componentDidUpdate(prevProps, prevState) {
   $1
 }
 ```
