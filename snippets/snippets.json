@@ -148,5 +148,23 @@
       "",
       "export default $1;"
     ]
+  },
+  "Styled Component": {
+    "prefix": "styc",
+    "body": [
+      "const $1 = styled.$2`",
+      "\t$3",
+      "`",
+      "",
+      "export default $1;"
+    ]
+  },
+  "ComponentWillUnmount": {
+    "prefix": "cwum",
+    "body": [
+      "componentWillUnmount() {",
+      "\t$1",
+      "}"
+    ]
   }
 }

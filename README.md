@@ -6,7 +6,7 @@
 | imrc | Import React Component |
 | imrn | Import React-Native Element |
 | rct | Redux constant |
-| ccr | Connect Redux |
+| crr | Connect Redux |
 | sl | Stateless Component |
 | slc | Stateless Component Function |
 | ccs | Component Class |
@@ -14,9 +14,11 @@
 | cwm | ComponentWillMount |
 | cdm | ComponentDidMount |
 | cwu | ComponentWillUpdate |
+| cwum | ComponentWillUnmount |
 | ess | EStyleSheet Style |
 | ed | Export default |
 | edl | EslintDisableLine |
+| styc | Styled Component |
 
 ---
 
@@ -52,7 +54,7 @@ export const $1 = '$1';
 
 ---
 
-## ccr [Connect Redux]
+## crr [Connect Redux]
 
 ```js
 import { connect } from 'react-redux';
@@ -142,6 +144,16 @@ componentDidMount() {
 
 ---
 
+# cwum [ComponentWillUnmount]
+
+```js
+componentWillUnmount() {
+  $1
+}
+```
+
+---
+
 # ess [EStyleSheet]
 
 ```js
@@ -164,8 +176,20 @@ export default $1;
 
 ---
 
-## edl
+## edl [Eslint Disable Line]
 
 ```js
 // eslint-disable-line
+```
+
+---
+
+## styc [Styled Component]
+
+```js
+const $1 = styled.$2`
+  $3
+`
+
+export default $1;
 ```
