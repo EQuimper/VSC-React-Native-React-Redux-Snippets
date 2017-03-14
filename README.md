@@ -14,7 +14,9 @@
 | sl | Stateless Component |
 | slc | Stateless Component Function |
 | ccs | Component Class |
+| edccs | Export default Component Class |
 | rrd | Redux Reducer |
+| rpf | Redux Pure Function |
 | cwm | ComponentWillMount |
 | cdm | ComponentDidMount |
 | cdu | ComponentDidUpdate |
