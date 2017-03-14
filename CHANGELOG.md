@@ -10,3 +10,8 @@
 ## [0.0.5 - ADDED]
 
 - ComponentDidUpdate
+
+## [0.0.6 - ADDED]
+
+- Export default Component Class
+- Redux Pure Function

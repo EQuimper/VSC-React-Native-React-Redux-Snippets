@@ -82,6 +82,18 @@
     ]
   },
 
+  "Redux Pure Function": {
+    "prefix": "rpf",
+    "body": [
+      "export const $1 = '$1';",
+      "",
+      "export const $2 = $3 => ({",
+      "\ttype: $1,",
+      "\t$3",
+      "});"
+    ]
+  },
+
   "Comment Big Block": {
     "prefix": "cbb",
     "body": [
@@ -136,6 +148,20 @@
       "}",
       "",
       "export default $1;"
+    ]
+  },
+
+  "Export default Component Class": {
+    "prefix": "edccs",
+    "body": [
+      "export default class $1 extends Component {",
+      "\tstate = { $2 }",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t$3",
+      "\t\t);",
+      "\t}",
+      "}"
     ]
   },
 

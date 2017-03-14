@@ -106,6 +106,23 @@ class $1 extends Component {
 export default $1;
 ```
 
+---
+
+## edccs [Export default Component Class]
+
+```js
+export default class $1 extends Component {
+  state = { $2 }
+  render() {
+    return (
+      $3
+    );
+  }
+}
+```
+
+---
+
 ## rrd [Redux Reducer]
 
 ```js
@@ -117,6 +134,19 @@ export default (state = $1, action) => {
       return state;
   }
 };
+```
+
+---
+
+## rpf [Redux pure function]
+
+```js
+export const $1 = '$1';
+
+export const $2 = $3 => ({
+  type: $1,
+  $3
+});
 ```
 
 ---
