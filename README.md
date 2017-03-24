@@ -9,6 +9,8 @@
 | imr | Import React |
 | imrc | Import React Component |
 | imrn | Import React-Native Element |
+| ims | Import Styled-Components |
+| imsn | Import Styled-Components Native |
 | rct | Redux constant |
 | crr | Connect Redux |
 | sl | Stateless Component |
@@ -49,6 +51,22 @@ import React, { Component } from 'react';
 
 ```js
 import { $1 } from 'react-native';
+```
+
+---
+
+## ims [Import Styled-Components]
+
+```js
+import styled from 'styled-components';
+```
+
+---
+
+## imsn [Import Styled-Components Native]
+
+```js
+import styled from 'styled-components/native';
 ```
 
 ---

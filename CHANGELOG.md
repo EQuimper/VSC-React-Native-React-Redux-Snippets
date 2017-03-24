@@ -15,3 +15,7 @@
 
 - Export default Component Class
 - Redux Pure Function
+
+## [0.1.0 - ADDED]
+
+- Styled-Components and Styled-Components/Native

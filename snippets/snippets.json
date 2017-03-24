@@ -21,6 +21,18 @@
     "description": "Import React-Native Element"
   },
 
+  "Import Styled-Components": {
+    "prefix": "ims",
+    "body": "import styled from 'styled-components';",
+    "description": "Import Styled-Components"
+  },
+
+  "Import Styled-Components Native": {
+    "prefix": "imsn",
+    "body": "import styled from 'styled-components/native';",
+    "description": "Import Styled-Components"
+  },
+
   "Redux constant": {
     "prefix": "rct",
     "body": "export const $1 = '$1';"
