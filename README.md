@@ -28,6 +28,8 @@
 | ed | Export default |
 | edl | EslintDisableLine |
 | styc | Styled Component |
+| estyc | Export Styled Component |
+| edstyc | Export default Styled Component |
 
 ---
 
@@ -256,6 +258,22 @@ export default $1;
 const $1 = styled.$2`
   $3
 `
+```
 
-export default $1;
+---
+
+## estyc [Export Styled Component]
+
+```js
+export const $1 = styled.$2`
+  $3
+`
+```
+
+## edstyc [Export default Styled Component]
+
+```js
+export default styled.$1`
+  $2
+`
 ```

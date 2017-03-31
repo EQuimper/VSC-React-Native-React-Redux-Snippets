@@ -19,3 +19,9 @@
 ## [0.1.0 - ADDED]
 
 - Styled-Components and Styled-Components/Native
+
+
+## [0.2.0 - ADDED]
+
+- Export Styled-Components
+- Export Default Styled-Components

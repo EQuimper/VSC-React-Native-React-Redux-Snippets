@@ -220,9 +220,25 @@
     "body": [
       "const $1 = styled.$2`",
       "\t$3",
-      "`",
-      "",
-      "export default $1;"
+      "`"
+    ]
+  },
+
+  "Export Styled Component": {
+    "prefix": "estyc",
+    "body": [
+      "export const $1 = styled.$2`",
+      "\t$3",
+      "`"
+    ]
+  },
+
+  "Export default Styled Component": {
+    "prefix": "edstyc",
+    "body": [
+      "export default styled.$1`",
+      "\t$2",
+      "`"
     ]
   },
 
