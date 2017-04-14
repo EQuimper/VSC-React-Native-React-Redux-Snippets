@@ -185,7 +185,7 @@ componentWillMount() {
 ## cwu [ComponentWillUpdate]
 
 ```js
-componentWillMount() {
+componentWillUpdate() {
   $1
 }
 ```
