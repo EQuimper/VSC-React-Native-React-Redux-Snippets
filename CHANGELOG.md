@@ -25,3 +25,9 @@
 
 - Export Styled-Components
 - Export Default Styled-Components
+
+## [0.2.1 - ADDED]
+
+- Redux pure function
+- Redux pure function const
+- Comment Big Block

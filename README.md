@@ -19,6 +19,7 @@
 | edccs | Export default Component Class |
 | rrd | Redux Reducer |
 | rpf | Redux Pure Function |
+| rpc | Redux Pure Function Const |
 | cwm | ComponentWillMount |
 | cdm | ComponentDidMount |
 | cdu | ComponentDidUpdate |
@@ -30,6 +31,7 @@
 | styc | Styled Component |
 | estyc | Export Styled Component |
 | edstyc | Export default Styled Component |
+| cmmb | Comment Big Block |
 
 ---
 
@@ -165,6 +167,21 @@ export default (state = $1, action) => {
 ```js
 export const $1 = '$1';
 
+export function $2($3) {
+  return {
+    type: $1,
+    $3
+  }
+};
+```
+
+---
+
+## rpc [Redux pure function const]
+
+```js
+export const $1 = '$1';
+
 export const $2 = $3 => ({
   type: $1,
   $3
@@ -185,7 +202,7 @@ componentWillMount() {
 ## cwu [ComponentWillUpdate]
 
 ```js
-componentWillMount() {
+componentWillUpdate() {
   $1
 }
 ```
@@ -276,4 +293,14 @@ export const $1 = styled.$2`
 export default styled.$1`
   $2
 `
+```
+
+## cmmb [Comment Big Block]
+
+```js
+/**
+|--------------------------------------------------
+| $1
+|--------------------------------------------------
+*/
 ```
