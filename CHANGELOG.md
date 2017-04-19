@@ -31,3 +31,7 @@
 - Redux pure function
 - Redux pure function const
 - Comment Big Block
+
+## [0.2.2 - Fixed]
+
+- Redux pure function semicolon

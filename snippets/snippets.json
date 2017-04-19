@@ -92,7 +92,7 @@
       "\t\ttype: $1,",
       "\t\t$3",
       "\t}",
-      "};"
+      "}"
     ]
   },
   "Redux Pure Function Const": {
