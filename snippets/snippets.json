@@ -120,7 +120,7 @@
     "prefix": "cwm",
     "body": [
       "componentWillMount() {",
-      "	$1",
+      "\t$1",
       "}"
     ]
   },
@@ -128,7 +128,7 @@
     "prefix": "cwu",
     "body": [
       "componentWillUpdate() {",
-      "	$1",
+      "\t$1",
       "}"
     ]
   },
@@ -136,7 +136,7 @@
     "prefix": "cdu",
     "body": [
       "componentDidUpdate(prevProps, prevState) {",
-      "	$1",
+      "\t$1",
       "}"
     ]
   },
@@ -236,6 +236,14 @@
       "componentWillUnmount() {",
       "\t$1",
       "}"
+    ]
+  },
+  "Console Log": {
+    "prefix": "log",
+    "body": [
+      "console.log('====================================');",
+      "console.log($1);",
+      "console.log('====================================');"
     ]
   }
 }

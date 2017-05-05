@@ -2,6 +2,12 @@
 [![Install](http://vsmarketplacebadge.apphb.com/installs-short/EQuimper.react-native-react-redux.svg)](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
 [![Ratings](http://vsmarketplacebadge.apphb.com/rating-short/EQuimper.react-native-react-redux.svg)](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
 
+## Usage
+
+After install this snippets add this inside your settings
+
+`"editor.snippetSuggestions": "top",`
+
 ## Snippets List
 
 | Snippets | Content |
@@ -32,6 +38,7 @@
 | estyc | Export Styled Component |
 | edstyc | Export default Styled Component |
 | cmmb | Comment Big Block |
+| log | Console Log |
 
 ---
 
@@ -303,4 +310,14 @@ export default styled.$1`
 | $1
 |--------------------------------------------------
 */
+```
+
+---
+
+## log [Console Log]
+
+```js
+console.log('====================================');
+console.log($1);
+console.log('====================================');
 ```

@@ -35,3 +35,7 @@
 ## [0.2.2 - Fixed]
 
 - Redux pure function semicolon
+
+## [0.3.0 - ADDED]
+
+- Add console.log
