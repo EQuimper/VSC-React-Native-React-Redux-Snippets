@@ -2,9 +2,10 @@
   "name": "react-native-react-redux",
   "displayName": "React-Native/React/Redux snippets for es6/es7",
   "description": "Code snippets for React-Native/React/Redux es6/es7",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "galleryBanner": {
-    "theme": "light"
+    "theme": "dark",
+    "color": "#61dafb"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,30 @@
   },
   "icon": "images/react-logo.png",
   "publisher": "EQuimper",
+  "keywords": [
+    "vscode",
+    "snippets",
+    "react",
+    "redux",
+    "react-native"
+  ],
+  "badges": [
+    {
+      "url": "http://vsmarketplacebadge.apphb.com/version-short/EQuimper.react-native-react-redux.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux",
+      "description": "Version"
+    },
+    {
+      "url": "http://vsmarketplacebadge.apphb.com/installs-short/EQuimper.react-native-react-redux.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux",
+      "description": "Install Count"
+    },
+    {
+      "url": "http://vsmarketplacebadge.apphb.com/rating-short/EQuimper.react-native-react-redux.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux",
+      "description": "Rating"
+    }
+  ],
   "engines": {
     "vscode": "^1.5.0"
   },
