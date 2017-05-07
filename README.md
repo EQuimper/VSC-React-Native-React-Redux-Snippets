@@ -135,13 +135,21 @@ export default $1;
 ## edccs [Export default Component Class]
 
 ```js
-export default class $1 extends Component {
-  state = { $2 }
-  render() {
-    return (
-      $3
-    );
-  }
+import React, { Component } from 'react';
+
+export default class App extends Component {
+
+    state = {
+        key: ''
+    }
+
+    render() {
+        return (
+            <div>
+                
+            </div>
+        );
+    }
 }
 ```
 
@@ -303,4 +311,10 @@ export default styled.$1`
 | $1
 |--------------------------------------------------
 */
+```
+
+## : [JSON Key Value snippet]
+
+```js
+${1:key}: ${2:'$0'}
 ```
