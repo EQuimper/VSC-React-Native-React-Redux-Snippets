@@ -162,11 +162,19 @@
   "Export default Component Class": {
     "prefix": "edccs",
     "body": [
+      "//@flow",
+      "",
+      "import React, { Component } from 'react';",
+      "",
       "export default class $1 extends Component {",
+      "",
       "\tstate = { $2 }",
+      "",
       "\trender() {",
       "\t\treturn (",
-      "\t\t\t$3",
+      "\t\t\t${3:<div>}",
+      "\t\t\t\t${3:$0}",
+      "\t\t\t${3:</div>}",
       "\t\t);",
       "\t}",
       "}"
@@ -236,6 +244,12 @@
       "componentWillUnmount() {",
       "\t$1",
       "}"
+    ]
+  },
+  "JSON key value": {
+    "prefix": ":",
+    "body": [
+      "${1:key}: ${2:'$0'}"
     ]
   }
 }
