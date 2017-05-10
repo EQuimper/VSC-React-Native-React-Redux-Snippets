@@ -245,5 +245,21 @@
       "console.log($1);",
       "console.log('====================================');"
     ]
-  }
+  },
+  "Test Describe": {
+		"prefix": "tdesc",
+		"body": [
+			"describe('$1', () => {",
+			"\t$2",
+			"});"
+		]
+	},
+	"Test it": {
+		"prefix": "tit",
+		"body": [
+			"it('should $1', $2($3) => {",
+			"\t$4",
+			"});"
+		]
+	}
 }

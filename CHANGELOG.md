@@ -39,3 +39,8 @@
 ## [0.3.0 - ADDED]
 
 - Add console.log
+
+## [0.3.3 - ADDED]
+
+- Test Describe
+- Test It

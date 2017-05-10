@@ -39,6 +39,8 @@ After install this snippets add this inside your settings
 | edstyc | Export default Styled Component |
 | cmmb | Comment Big Block |
 | log | Console Log |
+| tdesc | Test Describe |
+| tit | Test It |
 
 ---
 
@@ -320,4 +322,24 @@ export default styled.$1`
 console.log('====================================');
 console.log($1);
 console.log('====================================');
+```
+
+---
+
+## tdesc [Test Describe]
+
+```js
+describe('$1', () => {
+  $2
+});
+```
+
+---
+
+## tit [Test It]
+
+```js
+it('should $1', $2($3) => {
+  $4
+});
 ```
