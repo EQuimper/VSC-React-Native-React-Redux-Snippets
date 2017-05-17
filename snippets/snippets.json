@@ -140,10 +140,10 @@
       "}"
     ]
   },
-  "componentDidReceiveProps": {
-    "prefix": "cdrp",
+  "ComponentWillReceiveProps": {
+    "prefix": "cwrp",
     "body": [
-      "componentDidReceiveProps(nextProps) {",
+      "componentWillReceiveProps(nextProps) {",
       "\t$1",
       "}"
     ]
