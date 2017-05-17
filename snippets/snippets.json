@@ -140,6 +140,14 @@
       "}"
     ]
   },
+  "componentDidReceiveProps": {
+    "prefix": "cdrp",
+    "body": [
+      "componentDidReceiveProps(nextProps) {",
+      "\t$1",
+      "}"
+    ]
+  },
   "Comment big line": {
     "prefix": "cbl",
     "body": "// ============================================================"
