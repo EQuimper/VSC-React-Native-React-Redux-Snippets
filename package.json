@@ -2,7 +2,7 @@
   "name": "react-native-react-redux",
   "displayName": "React-Native/React/Redux snippets for es6/es7",
   "description": "Code snippets for React-Native/React/Redux es6/es7",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "galleryBanner": {
     "theme": "dark",
     "color": "#232323"
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/EQuimper/VSC-React-Native-React-Redux-Snippets"
   },
-  "icon": "images/react-logo.png",
+  "icon": "images/react-redux.jpg",
   "publisher": "EQuimper",
   "keywords": [
     "vscode",

@@ -44,3 +44,7 @@
 
 - Test Describe
 - Test It
+
+## [0.3.4 - ADDED]
+
+- ComponentWillReceiveProps - By [aestrro](https://github.com/aestrro)
