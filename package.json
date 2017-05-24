@@ -2,9 +2,10 @@
   "name": "react-native-react-redux",
   "displayName": "React-Native/React/Redux snippets for es6/es7",
   "description": "Code snippets for React-Native/React/Redux es6/es7",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "galleryBanner": {
-    "theme": "light"
+    "theme": "light",
+    "color": "#FFFFFF"
   },
   "repository": {
     "type": "git",
