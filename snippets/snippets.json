@@ -62,9 +62,9 @@
   "Stateless Component": {
     "prefix": "sl",
     "body": [
-      "const $1 = () => (",
+      "const $1 = () => {",
       "\t$2",
-      ");",
+      "};",
       "",
       "export default $1;"
     ]
