@@ -62,8 +62,20 @@
   "Stateless Component": {
     "prefix": "sl",
     "body": [
-      "const $1 = () => {",
+      "const $1 = () => (",
       "\t$2",
+      ");",
+      "",
+      "export default $1;"
+    ]
+  },
+  "Stateless Component Return": {
+    "prefix": "slr",
+    "body": [
+      "const $1 = () => {",
+      "\treturn (",
+      "\t\t$2",
+      "\t);",
       "};",
       "",
       "export default $1;"
