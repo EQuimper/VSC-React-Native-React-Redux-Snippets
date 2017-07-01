@@ -69,6 +69,18 @@
       "export default $1;"
     ]
   },
+  "Stateless Component Return": {
+    "prefix": "slr",
+    "body": [
+      "const $1 = () => {",
+      "\treturn (",
+      "\t\t$2",
+      "\t);",
+      "};",
+      "",
+      "export default $1;"
+    ]
+  },
   "Redux Reducer": {
     "prefix": "rrd",
     "body": [
