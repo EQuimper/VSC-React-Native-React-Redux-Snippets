@@ -76,7 +76,7 @@
       "\treturn (",
       "\t\t$2",
       "\t);",
-      "};",
+      "}",
       "",
       "export default $1;"
     ]

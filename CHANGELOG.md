@@ -48,3 +48,7 @@
 ## [0.3.4 - ADDED]
 
 - ComponentWillReceiveProps - By [aestrro](https://github.com/aestrro)
+
+## [1.0.1 - Added]
+
+- Add stateless component return

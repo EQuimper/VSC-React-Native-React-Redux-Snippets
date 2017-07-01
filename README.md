@@ -24,6 +24,7 @@ After install this snippets add this inside your settings
 | rct | Redux constant |
 | crr | Connect Redux |
 | sl | Stateless Component |
+| slr | Stateless Component Return |
 | slc | Stateless Component Function |
 | ccs | Component Class |
 | edccs | Export default Component Class |
@@ -111,6 +112,20 @@ import { connect } from 'react-redux';
 const $1 = () => (
   $2
 );
+
+export default $1;
+```
+
+---
+
+## slr [Stateless Component Return]
+
+```js
+const $1 = () => {
+  return (
+    $2
+  );
+}
 
 export default $1;
 ```
