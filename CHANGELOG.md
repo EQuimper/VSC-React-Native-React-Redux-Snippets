@@ -52,3 +52,7 @@
 ## [1.0.1 - Added]
 
 - Add stateless component return
+
+## [1.1.0 - Added]
+
+- Add Component Class With Redux

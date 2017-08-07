@@ -27,6 +27,7 @@ After install this snippets add this inside your settings
 | slr | Stateless Component Return |
 | slc | Stateless Component Function |
 | ccs | Component Class |
+| ccsr | Component Class With Redux |
 | edccs | Export default Component Class |
 | rrd | Redux Reducer |
 | rpf | Redux Pure Function |
@@ -157,6 +158,23 @@ class $1 extends Component {
 }
 
 export default $1;
+```
+
+---
+
+## ccsr [Component Class With Redux]
+
+```js
+class $1 extends Component {
+  state = { $2 }
+  render() {
+    return (
+      $3
+    );
+  }
+}
+
+export default connect($4, $5)($1);
 ```
 
 ---

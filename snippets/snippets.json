@@ -179,6 +179,21 @@
       "export default $1;"
     ]
   },
+  "Component Class With Redux": {
+    "prefix": "ccsr",
+    "body": [
+      "class $1 extends Component {",
+      "\tstate = { $2 }",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t$3",
+      "\t\t);",
+      "\t}",
+      "}",
+      "",
+      "export default connect($4, $5)($1);"
+    ]
+  },
   "Export default Component Class": {
     "prefix": "edccs",
     "body": [
