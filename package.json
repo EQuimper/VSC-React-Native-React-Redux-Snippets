@@ -25,17 +25,17 @@
   ],
   "badges": [
     {
-      "url": "http://vsmarketplacebadge.apphb.com/version-short/EQuimper.react-native-react-redux.svg",
+      "url": "https://vsmarketplacebadge.apphb.com/version-short/EQuimper.react-native-react-redux.svg",
       "href": "https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux",
       "description": "Version"
     },
     {
-      "url": "http://vsmarketplacebadge.apphb.com/installs-short/EQuimper.react-native-react-redux.svg",
+      "url": "https://vsmarketplacebadge.apphb.com/installs-short/EQuimper.react-native-react-redux.svg",
       "href": "https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux",
       "description": "Install Count"
     },
     {
-      "url": "http://vsmarketplacebadge.apphb.com/rating-short/EQuimper.react-native-react-redux.svg",
+      "url": "https://vsmarketplacebadge.apphb.com/rating-short/EQuimper.react-native-react-redux.svg",
       "href": "https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux",
       "description": "Rating"
     }
