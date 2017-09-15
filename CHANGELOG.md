@@ -56,3 +56,7 @@
 ## [1.1.0 - Added]
 
 - Add Component Class With Redux
+
+## [1.2.0 - Added]
+
+- Add ComponentDidCatch

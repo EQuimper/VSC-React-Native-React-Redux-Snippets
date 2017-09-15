@@ -38,6 +38,7 @@ After install this snippets add this inside your settings
 | cwu | ComponentWillUpdate |
 | cwum | ComponentWillUnmount |
 | cwrp | ComponentWillReceiveProps |
+| cdc | ComponentDidCatch |
 | ess | EStyleSheet Style |
 | ed | Export default |
 | edl | EslintDisableLine |
@@ -290,6 +291,16 @@ componentWillUnmount() {
 
 ```js
 componentWillReceiveProps(nextProps) {
+  $1
+}
+```
+
+---
+
+# cdc [ComponentDidCatch]
+
+```js
+componentDidCatch(error, info) {
   $1
 }
 ```

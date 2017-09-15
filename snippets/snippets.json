@@ -273,6 +273,14 @@
       "}"
     ]
   },
+  "ComponentDidCatch": {
+    "prefix": "cdc",
+    "body": [
+      "componentDidCatch(error, info) {",
+      "\t$1",
+      "}"
+    ]
+  },
   "Console Log": {
     "prefix": "log",
     "body": [
