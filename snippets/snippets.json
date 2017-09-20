@@ -219,6 +219,14 @@
       "}"
     ]
   },
+  "StyleSheet Style": {
+    "prefix": "rnss",
+    "body": [
+      "const styles = StyleSheet.create({",
+      "\t$1",
+      "})"
+    ]
+  },
   "EStyleSheet Style": {
     "prefix": "ess",
     "body": [

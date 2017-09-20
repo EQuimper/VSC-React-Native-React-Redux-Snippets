@@ -39,6 +39,7 @@ After install this snippets add this inside your settings
 | cwum | ComponentWillUnmount |
 | cwrp | ComponentWillReceiveProps |
 | cdc | ComponentDidCatch |
+| rnss | StyleSheet Style |
 | ess | EStyleSheet Style |
 | ed | Export default |
 | edl | EslintDisableLine |
@@ -303,6 +304,16 @@ componentWillReceiveProps(nextProps) {
 componentDidCatch(error, info) {
   $1
 }
+```
+
+---
+
+# rnss [StyleSheet Style]
+
+```js
+const styles = StyleSheet.create({
+  $1
+});
 ```
 
 ---

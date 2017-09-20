@@ -60,3 +60,7 @@
 ## [1.2.0 - Added]
 
 - Add ComponentDidCatch
+
+## [1.3.0 - Added]
+
+- Add React-Nativr StyleSheet
