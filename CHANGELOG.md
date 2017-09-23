@@ -64,3 +64,7 @@
 ## [1.3.0 - Added]
 
 - Add React-Nativr StyleSheet
+
+## [1.4.0 - Added]
+
+- Add import PureComponent for react

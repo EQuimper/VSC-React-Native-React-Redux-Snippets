@@ -13,6 +13,13 @@
     ],
     "description": "Import react component"
   },
+  "Import react pure component": {
+    "prefix": "imrpc",
+    "body": [
+      "import React, { PureComponent } from 'react';"
+    ],
+    "description": "Import react PureComponent"
+  },
   "Import React-Native Element": {
     "prefix": "imrn",
     "body": "import { $1 } from 'react-native';",
