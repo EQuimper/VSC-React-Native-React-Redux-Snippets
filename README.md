@@ -49,6 +49,7 @@ After install this snippets add this inside your settings
 | edstyc | Export default Styled Component |
 | cmmb | Comment Big Block |
 | log | Console Log |
+| cl | Standard console.log |
 | tdesc | Test Describe |
 | tit | Test It |
 
@@ -401,6 +402,14 @@ export default styled.$1`
 console.log('====================================');
 console.log($1);
 console.log('====================================');
+```
+
+---
+
+## cl [Standard console.log]
+
+```js
+console.log($1);
 ```
 
 ---
