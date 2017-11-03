@@ -39,6 +39,7 @@ After install this snippets add this inside your settings
 | cwu | ComponentWillUpdate |
 | cwum | ComponentWillUnmount |
 | cwrp | ComponentWillReceiveProps |
+| scu | ShouldComponentUpdate |
 | cdc | ComponentDidCatch |
 | rnss | StyleSheet Style |
 | ess | EStyleSheet Style |
@@ -303,6 +304,16 @@ componentWillUnmount() {
 ```js
 componentWillReceiveProps(nextProps) {
   $1
+}
+```
+
+---
+
+# scu [ShouldComponentUpdate]
+
+```js
+shouldComponentUpdate(nextProps, nextState) {
+  return $1:false;
 }
 ```
 
