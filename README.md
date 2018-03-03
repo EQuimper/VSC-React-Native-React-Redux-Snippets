@@ -36,6 +36,7 @@ After install this snippets add this inside your settings
 | cwm | ComponentWillMount |
 | cdm | ComponentDidMount |
 | cdu | ComponentDidUpdate |
+| scu | ShouldComponentUpdate |
 | cwu | ComponentWillUpdate |
 | cwum | ComponentWillUnmount |
 | cwrp | ComponentWillReceiveProps |
@@ -52,6 +53,7 @@ After install this snippets add this inside your settings
 | cl | Standard console.log |
 | tdesc | Test Describe |
 | tit | Test It |
+| ffm | FlowFixMe |
 
 ---
 
@@ -278,6 +280,16 @@ componentDidUpdate(prevProps, prevState) {
 
 ---
 
+## scu [ShouldComponentUpdate]
+
+```js
+shouldComponentUpdate(nextProps, nextState, nextContext) {
+  $1
+}
+```
+
+---
+
 ## cdm [ComponentDidMount]
 
 ```js
@@ -430,4 +442,12 @@ describe('$1', () => {
 it('should $1', $2($3) => {
   $4
 });
+```
+
+---
+
+## ffm [FlowFixMe]
+
+```js
+// $FlowFixMe
 ```

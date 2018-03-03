@@ -68,3 +68,8 @@
 ## [1.4.0 - Added]
 
 - Add import PureComponent for react
+
+## [1.5.0 - Added]
+
+- Add shouldComponentUpdate
+- Add FlowFixMe for flow user

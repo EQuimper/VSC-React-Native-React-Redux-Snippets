@@ -159,6 +159,14 @@
       "}"
     ]
   },
+  "ShouldComponentUpdate": {
+    "prefix": "scu",
+    "body": [
+      "shouldComponentUpdate(nextProps, nextState, nextContext) {",
+      "\t $1",
+      "}"
+    ]
+  },
   "ComponentWillReceiveProps": {
     "prefix": "cwrp",
     "body": [
@@ -319,5 +327,9 @@
 			"\t$4",
 			"});"
 		]
-	}
+  },
+  "FlowFixMe": {
+    "prefix": "ffm",
+    "body": "// $FlowFixMe"
+  }
 }
