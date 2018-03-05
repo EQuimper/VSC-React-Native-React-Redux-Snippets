@@ -73,3 +73,7 @@
 
 - Add shouldComponentUpdate
 - Add FlowFixMe for flow user
+
+## [1.6.0 - Added]
+
+- Add Component Class with Constructor
