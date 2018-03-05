@@ -18,7 +18,7 @@ After install this snippets add this inside your settings
 | -------: | --------|
 | imr | Import React |
 | imrc | Import React Component |
-| imrc | Import React PureComponent |
+| imrpc | Import React PureComponent |
 | imrn | Import React-Native Element |
 | ims | Import Styled-Components |
 | imsn | Import Styled-Components Native |
