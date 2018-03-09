@@ -212,19 +212,19 @@ type S = {
   $2
 };
 
-class $1 extends Component<P, S> {
+class $3 extends Component<P, S> {
   constructor(props) {
     super(props);
-    this.state = { $2 };
+    this.state = { $4 };
   }
   render() {
     return (
-      $3
+      $5
     );
   }
 }
 
-export default $1;
+export default $3;
 ```
 
 ---
@@ -279,19 +279,19 @@ type S = {
   $2
 };
 
-class $1 extends PureComponent<P, S> {
+class $3 extends PureComponent<P, S> {
   constructor(props) {
     super(props);
-    this.state = { $2 };
+    this.state = { $4 };
   }
   render() {
     return (
-      $3
+      $5
     );
   }
 }
 
-export default $1;
+export default $3;
 ```
 
 ---
