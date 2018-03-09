@@ -29,6 +29,10 @@ After install this snippets add this inside your settings
 | slc | Stateless Component Function |
 | ccs | Component Class |
 | cccs | Component Class With Constructor |
+| ccsf | Component Class FlowType |
+| pcs | PureComponent Class |
+| pccs | PureComponent Class With Constructor |
+| pcsf | PureComponent FlowType |
 | ccsr | Component Class With Redux |
 | edccs | Export default Component Class |
 | rrd | Redux Reducer |
@@ -181,6 +185,101 @@ export default $1;
 
 ```js
 class $1 extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { $2 };
+  }
+  render() {
+    return (
+      $3
+    );
+  }
+}
+
+export default $1;
+```
+
+---
+
+## ccsf [Component Class FlowType]
+
+```js
+type P = {
+  $1
+};
+
+type S = {
+  $2
+};
+
+class $1 extends Component<P, S> {
+  constructor(props) {
+    super(props);
+    this.state = { $2 };
+  }
+  render() {
+    return (
+      $3
+    );
+  }
+}
+
+export default $1;
+```
+
+---
+
+## pcs [PureComponent Class]
+
+```js
+class $1 extends PureComponent {
+  state = { $2 }
+  render() {
+    return (
+      $3
+    );
+  }
+}
+
+export default $1;
+```
+
+---
+
+---
+
+## pccs [PureComponent Class With Constructor]
+
+```js
+class $1 extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = { $2 };
+  }
+  render() {
+    return (
+      $3
+    );
+  }
+}
+
+export default $1;
+```
+
+---
+
+## pcsf [PureComponent Class FlowType]
+
+```js
+type P = {
+  $1
+};
+
+type S = {
+  $2
+};
+
+class $1 extends PureComponent<P, S> {
   constructor(props) {
     super(props);
     this.state = { $2 };

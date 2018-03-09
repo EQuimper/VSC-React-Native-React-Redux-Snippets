@@ -77,3 +77,10 @@
 ## [1.6.0 - Added]
 
 - Add Component Class with Constructor
+
+## [1.7.0 - Added]
+
+- Add PureComponent Class `pcs`
+- Add PureComponent Class with Constructor `pccs`
+- Add Component Class FlowType `ccsf`
+- Add PureComponent Class FlowType `pcsf`
