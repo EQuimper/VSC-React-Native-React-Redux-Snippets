@@ -216,11 +216,11 @@
     "prefix": "ccsf",
     "body": [
       "type P = {",
-      "\t $1",
+      "\t$1",
       "};",
       "",
       "type S = {",
-      "\t $2",
+      "\t$2",
       "};",
       "",
       "class $3 extends Component<P, S> {",
@@ -253,7 +253,7 @@
   "PureComponent Class With Constructor": {
     "prefix": "pccs",
     "body": [
-      "class $1 extends Component {",
+      "class $1 extends PureComponent {",
       "\tconstructor(props) {",
       "\t\tsuper(props);",
       "\t\tthis.state = { $2 };",
@@ -272,11 +272,11 @@
     "prefix": "pcsf",
     "body": [
       "type P = {",
-      "\t $1",
+      "\t$1",
       "};",
       "",
       "type S = {",
-      "\t $2",
+      "\t$2",
       "};",
       "",
       "class $3 extends PureComponent<P, S> {",
