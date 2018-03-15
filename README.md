@@ -48,6 +48,7 @@ After install this snippets add this inside your settings
 | cdc | ComponentDidCatch |
 | rnss | StyleSheet Style |
 | ess | EStyleSheet Style |
+| ipt | Import PropTypes |
 | ed | Export default |
 | edl | EslintDisableLine |
 | styc | Styled Component |
@@ -470,6 +471,14 @@ const styles = EStyleSheet.create({
 });
 
 export default styles;
+```
+
+---
+
+## ipt [Import PropTypes]
+
+```js
+import PropTypes from 'prop-types';
 ```
 
 ---

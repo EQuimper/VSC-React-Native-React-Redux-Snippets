@@ -84,3 +84,7 @@
 - Add PureComponent Class with Constructor `pccs`
 - Add Component Class FlowType `ccsf`
 - Add PureComponent Class FlowType `pcsf`
+
+## [1.7.3 - Added]
+
+- Add import PropTypes
