@@ -25,6 +25,13 @@
     "body": "import { $1 } from 'react-native';",
     "description": "Import React-Native Element"
   },
+  "Import PropTypes": {
+    "prefix": "ipt",
+    "body": [
+      "import PropTypes from 'prop-types';"
+    ],
+    "description": "Import PropTypes"
+  },
   "Import Styled-Components": {
     "prefix": "ims",
     "body": "import styled from 'styled-components';",
