@@ -88,3 +88,10 @@
 ## [1.7.3 - Added]
 
 - Add import PropTypes
+
+## [1.8.0 - Added]
+
+Updated for React 16.3
+
+- Add Create Context `cct`
+- Add getDerivedStateFromProps `gds`

@@ -338,6 +338,39 @@
       "}"
     ]
   },
+
+  "Create Context": {
+    "prefix": "cct",
+    "body": [
+      "const $1Context = createContext($2);",
+      "",
+      "class $1Provider extends Component {",
+      "\tstate = {",
+      "\t\t$3",
+      "\t}",
+      "",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t<$1Context.Provider value={{ state: { $3 }, actions: {} }}>",
+      "\t\t\t\t{this.props.children}",
+      "\t\t\t</$1Context.Provider>",
+      "\t\t);",
+      "\t}",
+      "}",
+      "",
+      "export default $1Provider;"
+    ]
+  },
+
+  "getDerivedStateFromProps": {
+    "prefix": "gds",
+    "body": [
+      "static getDerivedStateFromProps(nextProps, prevState) {",
+      "\t$1",
+      "}"
+    ]
+  },
+
   "StyleSheet Style": {
     "prefix": "rnss",
     "body": [

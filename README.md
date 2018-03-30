@@ -46,6 +46,8 @@ After install this snippets add this inside your settings
 | cwum | ComponentWillUnmount |
 | cwrp | ComponentWillReceiveProps |
 | cdc | ComponentDidCatch |
+| cct | Create Context |
+| gds | getDerivedStateFromProps |
 | rnss | StyleSheet Style |
 | ess | EStyleSheet Style |
 | ipt | Import PropTypes |
@@ -445,6 +447,41 @@ componentWillReceiveProps(nextProps) {
 
 ```js
 componentDidCatch(error, info) {
+  $1
+}
+```
+
+---
+
+# cct [Create Context]
+
+```js
+
+const $1Context = createContext($2);
+
+class $1Provider extends Component {
+  state = {
+    $3
+  }
+
+  render() {
+    return (
+      <$1Context.Provider value={{ state: { $3 }, actions: {} }}>
+        {this.props.children}
+      </$1Context.Provider>
+    );
+  }
+}
+
+export default $1Provider;
+```
+
+---
+
+# gds [getDerivedStateFromProps]
+
+```js
+static getDerivedStateFromProps(nextProps, prevState) {
   $1
 }
 ```
