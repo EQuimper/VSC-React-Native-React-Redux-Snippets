@@ -59,6 +59,7 @@ After install this snippets add this inside your settings
 | cmmb | Comment Big Block |
 | log | Console Log |
 | cl | Standard console.log |
+| tt | Test |
 | tdesc | Test Describe |
 | tit | Test It |
 | ffm | FlowFixMe |
@@ -588,6 +589,16 @@ console.log('====================================');
 
 ```js
 console.log($1);
+```
+
+---
+
+## tt [Test]
+
+```js
+test('$1', () => {
+  $2
+});
 ```
 
 ---

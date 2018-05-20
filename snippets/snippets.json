@@ -449,6 +449,14 @@
       "console.log('====================================');"
     ]
   },
+  "Test": {
+    "prefix": "tt",
+    "body": [
+      "test('$1', () => {",
+      "\t$2",
+      "});"
+    ]
+  },
   "Test Describe": {
 		"prefix": "tdesc",
 		"body": [
