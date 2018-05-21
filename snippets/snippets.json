@@ -182,6 +182,14 @@
       "}"
     ]
   },
+  "ShouldComponentUpdate": {
+		"prefix": "scu",
+		"body": [
+			"shouldComponentUpdate(nextProps, nextState) {",
+			"\treturn ${1:false};",
+			"}"
+		]
+	},
   "Comment big line": {
     "prefix": "cbl",
     "body": "// ============================================================"

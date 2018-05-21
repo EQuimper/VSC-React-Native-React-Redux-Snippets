@@ -45,6 +45,7 @@ After install this snippets add this inside your settings
 | cwu | ComponentWillUpdate |
 | cwum | ComponentWillUnmount |
 | cwrp | ComponentWillReceiveProps |
+| scu | ShouldComponentUpdate |
 | cdc | ComponentDidCatch |
 | cct | Create Context |
 | gds | getDerivedStateFromProps |
@@ -439,6 +440,16 @@ componentWillUnmount() {
 ```js
 componentWillReceiveProps(nextProps) {
   $1
+}
+```
+
+---
+
+# scu [ShouldComponentUpdate]
+
+```js
+shouldComponentUpdate(nextProps, nextState) {
+  return $1:false;
 }
 ```
 
