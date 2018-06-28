@@ -99,3 +99,8 @@ Updated for React 16.3
 ## [1.9.0 - Added]
 
 - add `tt` for jest test
+
+## [1.9.1 - Added]
+
+- Add `ednl` Eslint Disable Next Line
+- Add `imro` Import react as object, for typescript

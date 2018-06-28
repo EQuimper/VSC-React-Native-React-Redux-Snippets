@@ -6,6 +6,13 @@
     ],
     "description": "Import react"
   },
+  "Import react as object": {
+    "prefix": "imro",
+    "body": [
+      "import * as React from 'react';"
+    ],
+    "description": "Import react as object"
+  },
   "Import react component": {
     "prefix": "imrc",
     "body": [
@@ -64,6 +71,11 @@
     "prefix": "edl",
     "body": "// eslint-disable-line",
     "description": "Eslint Disable Line"
+  },
+  "EslintDisableNextLine": {
+    "prefix": "ednl",
+    "body": "// eslint-disable-next-line",
+    "description": "Eslint Disable Next Line"
   },
   "Comment Block": {
     "prefix": "cm",
