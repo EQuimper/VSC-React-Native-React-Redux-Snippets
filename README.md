@@ -23,6 +23,7 @@ After install this snippets add this inside your settings
 | imrn     | Import React-Native Element          |
 | ims      | Import Styled-Components             |
 | imsn     | Import Styled-Components Native      |
+| impt     | Import PropTypes                     |
 | rct      | Redux constant                       |
 | crr      | Connect Redux                        |
 | sl       | Stateless Component                  |
@@ -51,7 +52,6 @@ After install this snippets add this inside your settings
 | gds      | getDerivedStateFromProps             |
 | rnss     | StyleSheet Style                     |
 | ess      | EStyleSheet Style                    |
-| ipt      | Import PropTypes                     |
 | ed       | Export default                       |
 | edl      | EslintDisableLine                    |
 | ednl     | EslintDisableNextLine                |
@@ -120,6 +120,14 @@ import styled from 'styled-components';
 
 ```js
 import styled from 'styled-components/native';
+```
+
+---
+
+## impt [Import PropTypes]
+
+```js
+import PropTypes from 'prop-types';
 ```
 
 ---
@@ -519,14 +527,6 @@ const styles = EStyleSheet.create({
 });
 
 export default styles;
-```
-
----
-
-## ipt [Import PropTypes]
-
-```js
-import PropTypes from 'prop-types';
 ```
 
 ---
