@@ -33,7 +33,7 @@
     "description": "Import React-Native Element"
   },
   "Import PropTypes": {
-    "prefix": "ipt",
+    "prefix": "impt",
     "body": [
       "import PropTypes from 'prop-types';"
     ],
