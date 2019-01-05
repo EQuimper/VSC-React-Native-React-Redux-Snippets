@@ -88,23 +88,23 @@
   "Stateless Component": {
     "prefix": "sl",
     "body": [
-      "const $1 = () => (",
-      "\t$2",
+      "const ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} = () => (",
+      "\t$1",
       ");",
       "",
-      "export default $1;"
+      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
     ]
   },
   "Stateless Component Return": {
     "prefix": "slr",
     "body": [
-      "const $1 = () => {",
+      "const ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} = () => {",
       "\treturn (",
-      "\t\t$2",
+      "\t\t$1",
       "\t);",
       "}",
       "",
-      "export default $1;"
+      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
     ]
   },
   "Redux Reducer": {
@@ -201,34 +201,34 @@
   "Component Class": {
     "prefix": "ccs",
     "body": [
-      "class $1 extends Component {",
-      "\tstate = { $2 }",
-      "\trender() {",
-      "\t\treturn (",
-      "\t\t\t$3",
-      "\t\t);",
-      "\t}",
-      "}",
-      "",
-      "export default $1;"
+      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends Component {",
+			"\tstate = { $1 }",
+			"\trender() {",
+			"\t\treturn (",
+			"\t\t\t$2",
+			"\t\t);",
+			"\t}",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
     ]
   },
   "Component Class With Constructor": {
     "prefix": "cccs",
     "body": [
-      "class $1 extends Component {",
+      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends Component {",
       "\tconstructor(props) {",
       "\t\tsuper(props);",
-      "\t\tthis.state = { $2 };",
+      "\t\tthis.state = { $1 };",
       "\t}",
       "\trender() {",
       "\t\treturn (",
-      "\t\t\t$3",
+      "\t\t\t$2",
       "\t\t);",
       "\t}",
       "}",
       "",
-      "export default $1;"
+      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
     ]
   },
   "Component Class FlowType": {
@@ -242,23 +242,23 @@
       "\t$2",
       "};",
       "",
-      "class $3 extends Component<P, S> {",
-      "\tstate = { $4 }",
+      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends Component<P, S> {",
+      "\tstate = { $3 }",
       "\trender() {",
       "\t\treturn (",
-      "\t\t\t$5",
+      "\t\t\t$4",
       "\t\t);",
       "\t}",
       "}",
       "",
-      "export default $3;"
+      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
     ]
   },
   "PureComponent Class": {
     "prefix": "pcs",
     "body": [
-      "class $1 extends PureComponent {",
-      "\tstate = { $2 }",
+      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends PureComponent {",
+      "\tstate = { $1 }",
       "\trender() {",
       "\t\treturn (",
       "\t\t\t$3",
@@ -266,25 +266,25 @@
       "\t}",
       "}",
       "",
-      "export default $1;"
+      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
     ]
   },
   "PureComponent Class With Constructor": {
     "prefix": "pccs",
     "body": [
-      "class $1 extends PureComponent {",
+      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends PureComponent {",
       "\tconstructor(props) {",
       "\t\tsuper(props);",
-      "\t\tthis.state = { $2 };",
+      "\t\tthis.state = { $1 };",
       "\t}",
       "\trender() {",
       "\t\treturn (",
-      "\t\t\t$3",
+      "\t\t\t$2",
       "\t\t);",
       "\t}",
       "}",
       "",
-      "export default $1;"
+      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
     ]
   },
   "PureComponent Class FlowType": {
@@ -298,8 +298,8 @@
       "\t$2",
       "};",
       "",
-      "class $3 extends PureComponent<P, S> {",
-      "\tstate = { $4 }",
+      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends PureComponent<P, S> {",
+      "\tstate = { $3 }",
       "\trender() {",
       "\t\treturn (",
       "\t\t\t$5",
@@ -307,29 +307,29 @@
       "\t}",
       "}",
       "",
-      "export default $3;"
+      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
     ]
   },
   "Component Class With Redux": {
     "prefix": "ccsr",
     "body": [
-      "class $1 extends Component {",
-      "\tstate = { $2 }",
+      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends Component {",
+      "\tstate = { $1 }",
       "\trender() {",
       "\t\treturn (",
-      "\t\t\t$3",
+      "\t\t\t$2",
       "\t\t);",
       "\t}",
       "}",
       "",
-      "export default connect($4, $5)($1);"
+      "export default connect($4, $5)(${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g});"
     ]
   },
   "Export default Component Class": {
     "prefix": "edccs",
     "body": [
-      "export default class $1 extends Component {",
-      "\tstate = { $2 }",
+      "export default class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends Component {",
+      "\tstate = { $1 }",
       "\trender() {",
       "\t\treturn (",
       "\t\t\t$3",

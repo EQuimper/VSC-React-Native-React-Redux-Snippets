@@ -1,3 +1,7 @@
+## [2.0.0 - Added]
+
+- Now snippet will interfer the filename in component creation
+
 ## [1.9.2 - Fixed]
 
 - Fix import proptypes - By [freddydumont](https://github.com/freddydumont)
