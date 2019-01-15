@@ -1,3 +1,6 @@
+## [2.0.1 - Fixed]
+Fix issue with naming component
+
 ## [2.0.0 - Added]
 
 - Now snippet will interfer the filename in component creation

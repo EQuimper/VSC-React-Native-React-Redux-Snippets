@@ -1,30 +1,22 @@
 {
   "Import react": {
     "prefix": "imr",
-    "body": [
-      "import React from 'react';"
-    ],
+    "body": ["import React from 'react';"],
     "description": "Import react"
   },
   "Import react as object": {
     "prefix": "imro",
-    "body": [
-      "import * as React from 'react';"
-    ],
+    "body": ["import * as React from 'react';"],
     "description": "Import react as object"
   },
   "Import react component": {
     "prefix": "imrc",
-    "body": [
-      "import React, { Component } from 'react';"
-    ],
+    "body": ["import React, { Component } from 'react';"],
     "description": "Import react component"
   },
   "Import react pure component": {
     "prefix": "imrpc",
-    "body": [
-      "import React, { PureComponent } from 'react';"
-    ],
+    "body": ["import React, { PureComponent } from 'react';"],
     "description": "Import react PureComponent"
   },
   "Import React-Native Element": {
@@ -34,9 +26,7 @@
   },
   "Import PropTypes": {
     "prefix": "impt",
-    "body": [
-      "import PropTypes from 'prop-types';"
-    ],
+    "body": ["import PropTypes from 'prop-types';"],
     "description": "Import PropTypes"
   },
   "Import Styled-Components": {
@@ -55,16 +45,12 @@
   },
   "Print to console": {
     "prefix": "cl",
-    "body": [
-      "console.log($1)"
-    ],
+    "body": ["console.log($1)"],
     "description": "Log output to console"
   },
   "Export default": {
     "prefix": "ed",
-    "body": [
-      "export default $1;"
-    ],
+    "body": ["export default $1;"],
     "description": "Export default"
   },
   "EslintDisableLine": {
@@ -79,32 +65,28 @@
   },
   "Comment Block": {
     "prefix": "cm",
-    "body": [
-      "/**",
-      " * ${1}",
-      " */"
-    ]
+    "body": ["/**", " * ${1}", " */"]
   },
   "Stateless Component": {
     "prefix": "sl",
     "body": [
-      "const ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} = () => (",
+      "const ${TM_FILENAME_BASE} = () => (",
       "\t$1",
       ");",
       "",
-      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
+      "export default ${TM_FILENAME_BASE};"
     ]
   },
   "Stateless Component Return": {
     "prefix": "slr",
     "body": [
-      "const ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} = () => {",
+      "const ${TM_FILENAME_BASE} = () => {",
       "\treturn (",
       "\t\t$1",
       "\t);",
       "}",
       "",
-      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
+      "export default ${TM_FILENAME_BASE};"
     ]
   },
   "Redux Reducer": {
@@ -156,27 +138,15 @@
   },
   "ComponentWillMount": {
     "prefix": "cwm",
-    "body": [
-      "componentWillMount() {",
-      "\t$1",
-      "}"
-    ]
+    "body": ["componentWillMount() {", "\t$1", "}"]
   },
   "ComponentWillUpdate": {
     "prefix": "cwu",
-    "body": [
-      "componentWillUpdate() {",
-      "\t$1",
-      "}"
-    ]
+    "body": ["componentWillUpdate() {", "\t$1", "}"]
   },
   "ComponentDidUpdate": {
     "prefix": "cdu",
-    "body": [
-      "componentDidUpdate(prevProps, prevState) {",
-      "\t$1",
-      "}"
-    ]
+    "body": ["componentDidUpdate(prevProps, prevState) {", "\t$1", "}"]
   },
   "ShouldComponentUpdate": {
     "prefix": "scu",
@@ -188,11 +158,7 @@
   },
   "ComponentWillReceiveProps": {
     "prefix": "cwrp",
-    "body": [
-      "componentWillReceiveProps(nextProps) {",
-      "\t$1",
-      "}"
-    ]
+    "body": ["componentWillReceiveProps(nextProps) {", "\t$1", "}"]
   },
   "Comment big line": {
     "prefix": "cbl",
@@ -201,22 +167,22 @@
   "Component Class": {
     "prefix": "ccs",
     "body": [
-      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends Component {",
-			"\tstate = { $1 }",
-			"\trender() {",
-			"\t\treturn (",
-			"\t\t\t$2",
-			"\t\t);",
-			"\t}",
-			"}",
-			"",
-			"export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
+      "class ${TM_FILENAME_BASE} extends Component {",
+      "\tstate = { $1 }",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t$2",
+      "\t\t);",
+      "\t}",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE};"
     ]
   },
   "Component Class With Constructor": {
     "prefix": "cccs",
     "body": [
-      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends Component {",
+      "class ${TM_FILENAME_BASE} extends Component {",
       "\tconstructor(props) {",
       "\t\tsuper(props);",
       "\t\tthis.state = { $1 };",
@@ -228,7 +194,7 @@
       "\t}",
       "}",
       "",
-      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
+      "export default ${TM_FILENAME_BASE};"
     ]
   },
   "Component Class FlowType": {
@@ -242,7 +208,7 @@
       "\t$2",
       "};",
       "",
-      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends Component<P, S> {",
+      "class ${TM_FILENAME_BASE} extends Component<P, S> {",
       "\tstate = { $3 }",
       "\trender() {",
       "\t\treturn (",
@@ -251,13 +217,13 @@
       "\t}",
       "}",
       "",
-      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
+      "export default ${TM_FILENAME_BASE};"
     ]
   },
   "PureComponent Class": {
     "prefix": "pcs",
     "body": [
-      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends PureComponent {",
+      "class ${TM_FILENAME_BASE} extends PureComponent {",
       "\tstate = { $1 }",
       "\trender() {",
       "\t\treturn (",
@@ -266,13 +232,13 @@
       "\t}",
       "}",
       "",
-      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
+      "export default ${TM_FILENAME_BASE};"
     ]
   },
   "PureComponent Class With Constructor": {
     "prefix": "pccs",
     "body": [
-      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends PureComponent {",
+      "class ${TM_FILENAME_BASE} extends PureComponent {",
       "\tconstructor(props) {",
       "\t\tsuper(props);",
       "\t\tthis.state = { $1 };",
@@ -284,7 +250,7 @@
       "\t}",
       "}",
       "",
-      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
+      "export default ${TM_FILENAME_BASE};"
     ]
   },
   "PureComponent Class FlowType": {
@@ -298,7 +264,7 @@
       "\t$2",
       "};",
       "",
-      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends PureComponent<P, S> {",
+      "class ${TM_FILENAME_BASE} extends PureComponent<P, S> {",
       "\tstate = { $3 }",
       "\trender() {",
       "\t\treturn (",
@@ -307,13 +273,13 @@
       "\t}",
       "}",
       "",
-      "export default ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g};"
+      "export default ${TM_FILENAME_BASE};"
     ]
   },
   "Component Class With Redux": {
     "prefix": "ccsr",
     "body": [
-      "class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends Component {",
+      "class ${TM_FILENAME_BASE} extends Component {",
       "\tstate = { $1 }",
       "\trender() {",
       "\t\treturn (",
@@ -322,13 +288,13 @@
       "\t}",
       "}",
       "",
-      "export default connect($4, $5)(${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g});"
+      "export default connect($4, $5)(${TM_FILENAME_BASE});"
     ]
   },
   "Export default Component Class": {
     "prefix": "edccs",
     "body": [
-      "export default class ${TM_FILENAME_BASE/([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g} extends Component {",
+      "export default class ${TM_FILENAME_BASE} extends Component {",
       "\tstate = { $1 }",
       "\trender() {",
       "\t\treturn (",
@@ -344,11 +310,7 @@
   },
   "ComponentDidMount": {
     "prefix": "cdm",
-    "body": [
-      "componentDidMount() {",
-      "\t$1",
-      "}"
-    ]
+    "body": ["componentDidMount() {", "\t$1", "}"]
   },
 
   "Create Context": {
@@ -385,11 +347,7 @@
 
   "StyleSheet Style": {
     "prefix": "rnss",
-    "body": [
-      "const styles = StyleSheet.create({",
-      "\t$1",
-      "})"
-    ]
+    "body": ["const styles = StyleSheet.create({", "\t$1", "})"]
   },
   "EStyleSheet Style": {
     "prefix": "ess",
@@ -405,53 +363,27 @@
   },
   "Stateless Component Function": {
     "prefix": "slc",
-    "body": [
-      "function $1($2) {",
-      "\t$3",
-      "}",
-      "",
-      "export default $1;"
-    ]
+    "body": ["function $1($2) {", "\t$3", "}", "", "export default $1;"]
   },
   "Styled Component": {
     "prefix": "styc",
-    "body": [
-      "const $1 = styled.$2`",
-      "\t$3",
-      "`"
-    ]
+    "body": ["const $1 = styled.$2`", "\t$3", "`"]
   },
   "Export Styled Component": {
     "prefix": "estyc",
-    "body": [
-      "export const $1 = styled.$2`",
-      "\t$3",
-      "`"
-    ]
+    "body": ["export const $1 = styled.$2`", "\t$3", "`"]
   },
   "Export default Styled Component": {
     "prefix": "edstyc",
-    "body": [
-      "export default styled.$1`",
-      "\t$2",
-      "`"
-    ]
+    "body": ["export default styled.$1`", "\t$2", "`"]
   },
   "ComponentWillUnmount": {
     "prefix": "cwum",
-    "body": [
-      "componentWillUnmount() {",
-      "\t$1",
-      "}"
-    ]
+    "body": ["componentWillUnmount() {", "\t$1", "}"]
   },
   "ComponentDidCatch": {
     "prefix": "cdc",
-    "body": [
-      "componentDidCatch(error, info) {",
-      "\t$1",
-      "}"
-    ]
+    "body": ["componentDidCatch(error, info) {", "\t$1", "}"]
   },
   "Console Log": {
     "prefix": "log",
@@ -463,27 +395,15 @@
   },
   "Test": {
     "prefix": "tt",
-    "body": [
-      "test('$1', () => {",
-      "\t$2",
-      "});"
-    ]
+    "body": ["test('$1', () => {", "\t$2", "});"]
   },
   "Test Describe": {
-		"prefix": "tdesc",
-		"body": [
-			"describe('$1', () => {",
-			"\t$2",
-			"});"
-		]
-	},
-	"Test it": {
-		"prefix": "tit",
-		"body": [
-			"it('should $1', $2($3) => {",
-			"\t$4",
-			"});"
-		]
+    "prefix": "tdesc",
+    "body": ["describe('$1', () => {", "\t$2", "});"]
+  },
+  "Test it": {
+    "prefix": "tit",
+    "body": ["it('should $1', $2($3) => {", "\t$4", "});"]
   },
   "FlowFixMe": {
     "prefix": "ffm",
