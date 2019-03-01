@@ -418,5 +418,15 @@
       "storiesOf('$1', module)",
       "\t.add('default', () => $2);"
     ]
+  },
+  "React Story": {
+    "prefix": "rstory",
+    "body": [
+      "import React from 'react';",
+      "import { storiesOf } from '@storybook/react';",
+      "",
+      "storiesOf('$1', module)",
+      "\t.add('default', () => $2);"
+    ]
   }
 }

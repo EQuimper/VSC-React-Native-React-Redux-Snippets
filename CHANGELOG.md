@@ -1,3 +1,6 @@
+## [2.0.3 - Added]
+Add react story snippet `rstory`
+
 ## [2.0.2 - Added]
 Add react-native story snippet `rnstory`
 
