@@ -65,6 +65,7 @@ After install this snippets add this inside your settings
 | tdesc    | Test Describe                        |
 | tit      | Test It                              |
 | ffm      | FlowFixMe                            |
+| rnstory  | React-Native Story                   |
 
 ---
 
@@ -645,4 +646,16 @@ it('should $1', $2($3) => {
 
 ```js
 // $FlowFixMe
+```
+
+---
+
+## rnstory [React-Native Story]
+
+```js
+import React from 'react';
+import { storiesOf } from '@storybook/react-native';
+
+storiesOf('$1', module)
+  .add('default', () => $2);
 ```

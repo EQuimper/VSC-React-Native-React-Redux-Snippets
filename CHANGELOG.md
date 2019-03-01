@@ -1,3 +1,6 @@
+## [2.0.2 - Added]
+Add react-native story snippet `rnstory`
+
 ## [2.0.1 - Fixed]
 Fix issue with naming component
 

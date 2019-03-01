@@ -408,5 +408,15 @@
   "FlowFixMe": {
     "prefix": "ffm",
     "body": "// \\$FlowFixMe"
+  },
+  "React-Native Story": {
+    "prefix": "rnstory",
+    "body": [
+      "import React from 'react';",
+      "import { storiesOf } from '@storybook/react-native';",
+      "",
+      "storiesOf('$1', module)",
+      "\t.add('default', () => $2);"
+    ]
   }
 }
