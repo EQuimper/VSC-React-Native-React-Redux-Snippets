@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge)](https://a.paddle.com/v2/click/16413/111518?link=1227)
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/EQuimper.react-native-react-redux.svg)](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
 [![Install](https://vsmarketplacebadge.apphb.com/installs-short/EQuimper.react-native-react-redux.svg)](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/EQuimper.react-native-react-redux.svg)](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
@@ -671,6 +672,17 @@ import { storiesOf } from '@storybook/react';
 
 storiesOf('$1', module)
   .add('default', () => $2);
+```
+
+---
+
+
+## rue [React useEffect]
+
+```js
+React.useEffect(() => {
+  $1
+}, []);
 ```
 
 ---

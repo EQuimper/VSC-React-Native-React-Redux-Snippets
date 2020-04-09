@@ -1,3 +1,6 @@
+## [2.0.4 - Added]
+React useEffect `rue`
+
 ## [2.0.3 - Added]
 Add react story snippet `rstory`
 

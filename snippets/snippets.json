@@ -428,5 +428,13 @@
       "storiesOf('$1', module)",
       "\t.add('default', () => $2);"
     ]
+  },
+  "React useEffect": {
+    "prefix": "rue",
+    "body": [
+      "React.useEffect(() => {",
+      "\t$1",
+      "}, []);"
+    ]
   }
 }
