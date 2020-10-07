@@ -1,3 +1,6 @@
+## [2.0.5 - Added]
+- Add React Stateless Function `rsf`
+
 ## [2.0.4 - Added]
 React useEffect `rue`
 

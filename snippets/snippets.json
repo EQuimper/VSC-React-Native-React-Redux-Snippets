@@ -436,5 +436,22 @@
       "\t$1",
       "}, []);"
     ]
+  },
+  "React Stateless Function": {
+    "prefix": "rsf",
+    "body": [
+      "import React from 'react';",
+      "",
+      "function ${TM_FILENAME_BASE}(props) => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t",
+      "\t\t</div>",
+      "\t);",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "Creates a stateless React component as a named function without PropTypes (Reactjs code snippet)"
   }
 }

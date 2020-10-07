@@ -68,6 +68,7 @@ After install this snippets add this inside your settings
 | ffm      | FlowFixMe                            |
 | rnstory  | React-Native Story                   |
 | rstory   | React Story                          |
+| rsf      | React Stateless Function             |
 
 ---
 
@@ -683,6 +684,24 @@ storiesOf('$1', module)
 React.useEffect(() => {
   $1
 }, []);
+```
+
+---
+
+## rsf [React Stateless Function]
+
+```js
+import React from "react";
+
+function $1(props) {
+  return (
+    <div>
+
+    </div>
+  );
+}
+
+export default $1;
 ```
 
 ---
