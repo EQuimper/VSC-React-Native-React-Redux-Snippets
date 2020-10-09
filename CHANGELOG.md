@@ -1,3 +1,6 @@
+## [2.0.6 - Fixed]
+- Fix React Stateless Function `rsf` syntax
+
 ## [2.0.5 - Added]
 - Add React Stateless Function `rsf`
 

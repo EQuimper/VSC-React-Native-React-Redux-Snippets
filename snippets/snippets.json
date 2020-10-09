@@ -442,7 +442,7 @@
     "body": [
       "import React from 'react';",
       "",
-      "function ${TM_FILENAME_BASE}(props) => {",
+      "function ${TM_FILENAME_BASE}(props) {",
       "\treturn (",
       "\t\t<div>",
       "\t\t\t",
